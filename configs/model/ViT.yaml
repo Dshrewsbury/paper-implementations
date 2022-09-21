@@ -1,0 +1,18 @@
+_target_: src.models.ViT_module.ViTModule
+
+optimizer:
+  _target_: torch.optim.Adam
+  _partial_: true
+  lr: 0.005
+  weight_decay: 0.0
+
+transformer:
+  _target_: src.models.components.visual_transformer.ViT
+  channels: 1
+  height: 28
+  width: 28
+  n_patches: 7
+  n_blocks: 2
+  hidden_d: 8
+  n_heads: 2
+  out_d: 10

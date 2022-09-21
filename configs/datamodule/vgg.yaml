@@ -1,0 +1,6 @@
+_target_: src.datamodules.vgg_datamodule.VGGDataModule
+data_dir: ${paths.data_dir}
+batch_size: 64
+train_val_split: [45_000, 5_000]
+num_workers: 0
+pin_memory: False
