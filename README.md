@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 # Lightning-Hydra-Template
@@ -1289,3 +1290,6 @@ You can override any parameter from command line like this
 ```bash
 python src/train.py trainer.max_epochs=20 datamodule.batch_size=64
 ```
+=======
+#Paper Implementations
+>>>>>>> 440917f79cb895874888297cd01e30da8ddcba7c
