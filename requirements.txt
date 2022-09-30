@@ -36,3 +36,4 @@ typing_extensions~=4.3.0
 setuptools~=59.5.0
 future~=0.18.2
 packaging~=21.3
+wandb~=0.13.2

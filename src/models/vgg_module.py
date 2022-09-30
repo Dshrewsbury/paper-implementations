@@ -19,7 +19,7 @@ class VGGModule(LightningModule):
         # also ensures init params will be stored in ckpt
         self.save_hyperparameters(logger=False, ignore=["net"])
 
-        self.net = net
+        self.feature_extractor = net
 
         # loss function
         self.criterion = torch.nn.CrossEntropyLoss()
